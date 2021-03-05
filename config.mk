@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := vendor/burial9
+VENDOR_PATH := vendor/burial10
 
 PRODUCT_COPY_FILES += \
 	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/vendor/etc,vendor/etc) \
-	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/vendor/priv-app/burial9/lib/arm64,vendor/priv-app/burial9/lib/arm64)
+	$(call find-copy-subdir-files,*,$(VENDOR_PATH)/vendor/priv-app/burial10/lib/arm64,vendor/priv-app/burial10/lib/arm64)
 
 PRODUCT_PACKAGES += \
-    burial9
+    burial10
