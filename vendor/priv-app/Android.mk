@@ -1,9 +1,9 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := burial9
+LOCAL_MODULE := burial10
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := burial9/burial9.apk
+LOCAL_SRC_FILES := burial10/burial10.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_CLASS := APPS
